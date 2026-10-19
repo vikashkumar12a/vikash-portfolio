@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description"
+        content="Vikash Kumar — B.Tech Computer Science student portfolio showcasing Python, Data Science, web development, and student projects.">
+    <title>Vikash Kumar | Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="canvas-bg"></canvas>
+    <div class="bg-overlay"></div>
+
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#youtube">YOUTUBE</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <main class="container">
+        <section id="home" class="home fade-up">
+            <div class="floating-object">🤖</div>
+            <div class="floating-object">🚁</div>
+            <div class="floating-object">🧠</div>
+            <div class="floating-object">🛸</div>
+            <div class="floating-object">⚡</div>
+            <div class="floating-object">🔮</div>
+            <div class="floating-object">💻</div>
+            <div class="floating-object">🎮</div>
+            <div class="hologram-ring"></div>
+
+            <h1 class="glow-text">Vikash Kumar</h1>
+            <div class="typewriter" id="typed-roles"></div>
+            <p>B.Tech Computer Science Student | Data Science Enthusiast | AI & Robotics Explorer | Future Software
+                Architect | Professional Gamer</p>
+            <a href="#contact" class="btn-neon">🤖 CONNECT WITH ME 🤖</a>
+        </section>
+
+
+        <section id="about" class="fade-up">
+            <h2> ABOUT ME </h2>
+
+            <div class="about-flex">
+
+                <div class="photo-container">
+                    <img id="profileImg" class="profile-photo" src="./my_image.png" alt="Vikash Kumar"
+                        onerror="this.onerror=null; this.src='https://placehold.co/300x300/10152b/ffffff?text=Vikash+Kumar';">
+
+                    <input type="file" id="photoUpload" accept="image/png,image/jpeg,image/webp" style="display: none;">
+
+
+                </div>
+
+
+                <div class="about-text-box">
+                    <p>Hi, I'm <span class="highlight">Vikash Kumar</span>, a B.Tech Computer Science Engineering
+                        student specializing in Data Science. I'm passionate about <span class="highlight">Python,
+                            Artificial Intelligence, and Data Science</span>.</p>
+
+                    <p>I enjoy learning new technologies, solving problems, and building projects that improve my
+                        programming and analytical skills.</p>
+
+                    <p>My goal is to become a skilled developer and use technology to create innovative solutions.</p>
+
+                    <h3>🏆 Achievements</h3>
+
+                    <ul class="about-list">
+                        <li>🎓 Pursuing B.Tech in Computer Science Engineering (Data Science).</li>
+                        <li>🐍 Completed learning Python programming fundamentals.</li>
+                        <li>📊 Learned Pandas and NumPy for data manipulation and numerical computing.</li>
+                        <li>💻 Currently learning Data Structures and Algorithms (DSA) to improve problem-solving
+                            skills.</li>
+                        <li>🚀 Building personal projects to apply my programming knowledge in real-world scenarios.
+                        </li>
+                        <li>🤖 Interested in Data Science, Artificial Intelligence, and Machine Learning.</li>
+                        <li>🎯 Focused on strengthening my technical skills and becoming a skilled software developer.
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="skills" class="fade-up">
+            <h2>// TECH STACK // DATA SCIENCE & AI</h2>
+            <div class="skills-grid">
+                <span class="skill-badge">🐍 Python</span>
+                <span class="skill-badge">📊 Pandas/NumPy</span>
+                <span class="skill-badge">🤖 Scikit-Learn</span>
+                <span class="skill-badge">⚡ C Programming</span>
+                <span class="skill-badge">☕ Java</span>
+                <span class="skill-badge">🌐 HTML5/CSS3</span>
+                <span class="skill-badge">🎨 JavaScript</span>
+                <span class="skill-badge">🧠 Machine Learning</span>
+                <span class="skill-badge">📈 Data Visualization</span>
+                <span class="skill-badge">🔧 Git & GitHub</span>
+                <span class="skill-badge">💻 VS Code</span>
+                <span class="skill-badge">🕹️ Unity Game Dev</span>
+            </div>
+        </section>
+
+        <section id="projects" class="fade-up">
+            <h2>// MY PROJECTS // WEB DEVELOPMENT & PYTHON</h2>
+            <p class="section-intro">These projects reflect my hands-on practice as a B.Tech CSE (Data Science) student.
+                Some are beginner practice projects and are labelled accordingly.</p>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-icon">🔐</div>
+                    <span class="project-type">HTML · CSS · FORM DESIGN</span>
+                    <h3>Sign Up Page</h3>
+                    <p>A sign-up form practice project with Name, Email, Password, and Confirm Password fields, a clear
+                        call-to-action button, and responsive styling.</p>
+                    <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>Forms</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">📝</div>
+                    <span class="project-type">HTML · FORM PRACTICE</span>
+                    <h3>Student Registration Form</h3>
+                    <p>An HTML form exercise with name and password fields, gender options, subject checkboxes, a branch
+                        dropdown, a feedback area, and a submit button.</p>
+                    <div class="project-tags"><span>HTML</span><span>Input Fields</span><span>Form Controls</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">💻</div>
+                    <span class="project-type">FRONTEND · PERSONAL WEBSITE</span>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>This portfolio introduces me, presents my skills, highlights my learning projects, and provides
+                        ways to connect. It uses a responsive dark navy, blue, and violet design.</p>
+                    <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>Responsive Design</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">📊</div>
+                    <span class="project-type">PYTHON · DATA ANALYSIS PRACTICE</span>
+                    <h3>Student Performance Analyzer</h3>
+                    <p>A learning project idea for practising how to store student marks, calculate totals and averages,
+                        and identify pass/fail results using Python. Add a repository link once your implementation is
+                        ready.</p>
+                    <div class="project-tags"><span>Python</span><span>Lists / Dictionaries</span><span>In
+                            Progress</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon">🐼</div>
+                    <span class="project-type">PYTHON · PANDAS PRACTICE</span>
+                    <h3>Pandas Data Analysis Practice</h3>
+                    <p>Practice exercises using DataFrames, grouping, resampling, and summary statistics to learn how to
+                        organise and analyse tabular data.</p>
+                    <div class="project-tags"><span>Python</span><span>Pandas</span><span>DataFrames</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section id="youtube" class="fade-up">
+            <h2>// GAMING HUB // VIKASHXPERIENCE</h2>
+            <div class="youtube-box">
+                <p style="font-size:1.3rem">🎮 Join the revolution — gaming, coding, data science, and future tech!</p>
+                <p style="margin-top: 1.5rem;">
+                    <a href="https://www.youtube.com/@godking22" target="_blank" rel="noopener noreferrer">
+                        ▶️ VikashXperience / @godking22
+                    </a>
+                </p>
+                <p style="margin-top: 1rem;">🔥 Subscribe for AI breakdowns, data science tutorials, game devlogs, and
+                    epic gaming moments 🔥</p>
+            </div>
+        </section>
+
+        <section id="contact" class="fade-up">
+            <h2>// CONTACT MATRIX // CONNECT WITH ME</h2>
+            <div class="contact-flex">
+
+                <div class="contact-info">
+                    <!-- Instagram -->
+                    <p>
+                        <span class="social-logo">📸</span>
+                        <a href="https://www.instagram.com/_vikash_kumar_22_/" target="_blank"
+                            rel="noopener noreferrer">
+                            Instagram: @_vikash_kumar_22_
+                        </a>
+                    </p>
+
+                    <!-- YouTube -->
+                    <p>
+                        <span class="social-logo">▶️</span>
+                        <a href="https://www.youtube.com/@godking22" target="_blank" rel="noopener noreferrer">
+                            YouTube: @godking22
+                        </a>
+                    </p>
+
+                    <!-- GitHub -->
+                    <p>
+                        <span class="social-logo">🐙</span>
+                        <a href="https://github.com/vikashkumar12a" target="_blank" rel="noopener noreferrer">
+                            GitHub: vikashkumar
+                        </a>
+                    </p>
+
+                    <!-- LinkedIn -->
+                    <p>
+                        <span class="social-logo">💼</span>
+                        <a href="https://www.linkedin.com/in/vikash-kumar-0a5616383/" target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn: Vikash Kumar
+                        </a>
+                    </p>
+
+
+                    <!-- Twitter -->
+                    <p>
+                        <span class="social-logo">🐦</span>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            Twitter: @vikashkumar
+                        </a>
+                    </p>
+
+
+                    <!-- Gmail -->
+                    <p>
+                        <span class="social-logo">📧</span>
+                        <a href="mailto:vikashkumarsingh12t@gmail.com">
+                            Gmail: vikashkumarsingh12t@gmail.com
+                        </a>
+                    </p>
+
+
+                </div>
+
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="3" id="message" placeholder="Your Message ..." required></textarea>
+                        </div>
+                        <button type="submit" id="submitBtn">✨ SEND MESSAGE ✨</button>
+                        <p id="formFeedback" style="margin-top: 12px; font-size: 0.85rem;"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Vikash Kumar — Data Science | AI | Robotics | Gaming | Neural Network Portfolio</p>
+        </footer>
+    </main>
+
+    <script>
+        (function () {
+            // Fix: Ensure all elements exist before using them
+            const profileImg = document.getElementById('profileImg');
+            const photoUpload = document.getElementById('photoUpload');
+            const uploadHint = document.querySelector('.upload-hint');
+
+            // Function to display image
+            function displayImage(imageData) {
+                if (profileImg) {
+                    profileImg.src = imageData;
+                    profileImg.style.objectFit = 'cover';
+                }
+            }
+
+            // Load saved photo from localStorage
+            try {
+                const savedPhoto = localStorage.getItem('profilePhoto');
+                if (savedPhoto && savedPhoto !== 'null' && savedPhoto !== 'undefined' && savedPhoto.length > 50) {
+                    displayImage(savedPhoto);
+                }
+            } catch (e) { console.log('localStorage error'); }
+
+            // Add click handlers if elements exist
+            if (profileImg) {
+                profileImg.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    if (photoUpload) photoUpload.click();
+                });
+            }
+
+            if (uploadHint) {
+                uploadHint.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    if (photoUpload) photoUpload.click();
+                });
+            }
+
+            // Handle file upload
+            if (photoUpload) {
+                photoUpload.addEventListener('change', function (e) {
+                    const file = e.target.files[0];
+                    if (file && file.type.match('image.*')) {
+                        const reader = new FileReader();
+                        reader.onload = function (event) {
+                            const imgData = event.target.result;
+                            displayImage(imgData);
+                            try {
+                                localStorage.setItem('profilePhoto', imgData);
+                            } catch (e) { console.log('Storage error'); }
+                        };
+                        reader.readAsDataURL(file);
+                    } else if (file) {
+                        alert('Please select a valid image file (JPG, PNG, etc.)');
+                    }
+                });
+            }
+        })();
+
+        // Background Animation
+        const canvas = document.getElementById('canvas-bg');
+        if (canvas) {
+            const ctx = canvas.getContext('2d');
+
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+            resizeCanvas();
+            window.addEventListener('resize', resizeCanvas);
+
+            let particles = [];
+            const PARTICLE_COUNT = 150;
+
+            class Particle {
+                constructor() {
+                    this.x = Math.random() * canvas.width;
+                    this.y = Math.random() * canvas.height;
+                    this.size = Math.random() * 2 + 0.5;
+                    this.speedX = (Math.random() - 0.5) * 0.3;
+                    this.speedY = (Math.random() - 0.5) * 0.3;
+                    this.color = `rgba(0, ${Math.random() * 100 + 155}, 255, ${Math.random() * 0.5 + 0.3})`;
+                }
+                update() {
+                    this.x += this.speedX;
+                    this.y += this.speedY;
+                    if (this.x < 0) this.x = canvas.width;
+                    if (this.x > canvas.width) this.x = 0;
+                    if (this.y < 0) this.y = canvas.height;
+                    if (this.y > canvas.height) this.y = 0;
+                }
+                draw() {
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                    ctx.fillStyle = this.color;
+                    ctx.fill();
+                }
+            }
+
+            function initParticles() {
+                for (let i = 0; i < PARTICLE_COUNT; i++) {
+                    particles.push(new Particle());
+                }
+            }
+
+            function drawNeuralLines() {
+                for (let i = 0; i < particles.length; i++) {
+                    for (let j = i + 1; j < particles.length; j++) {
+                        const dx = particles[i].x - particles[j].x;
+                        const dy = particles[i].y - particles[j].y;
+                        const distance = Math.sqrt(dx * dx + dy * dy);
+                        if (distance < 100) {
+                            ctx.beginPath();
+                            ctx.moveTo(particles[i].x, particles[i].y);
+                            ctx.lineTo(particles[j].x, particles[j].y);
+                            const opacity = (1 - distance / 100) * 0.2;
+                            ctx.strokeStyle = `rgba(0, 200, 255, ${opacity})`;
+                            ctx.lineWidth = 0.8;
+                            ctx.stroke();
+                        }
+                    }
+                }
+            }
+
+            function animateBackground() {
+                if (!ctx) return;
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+                grad.addColorStop(0, '#03050a');
+                grad.addColorStop(1, '#0a0f1a');
+                ctx.fillStyle = grad;
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                for (let p of particles) {
+                    p.update();
+                    p.draw();
+                }
+                drawNeuralLines();
+
+                requestAnimationFrame(animateBackground);
+            }
+
+            initParticles();
+            animateBackground();
+        }
+
+        // Scroll Animation
+        const fadeElements = document.querySelectorAll('.fade-up');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.15 });
+        fadeElements.forEach(el => observer.observe(el));
+
+        // Form Handler
+        const contactForm = document.getElementById('contactForm');
+        const feedbackPara = document.getElementById('formFeedback');
+        if (contactForm) contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+            if (!name || !email || !message) {
+                feedbackPara.innerHTML = "❌ Fill all fields!";
+                feedbackPara.style.color = "#ff6680";
+                setTimeout(() => feedbackPara.innerHTML = "", 2500);
+                return;
+            }
+            feedbackPara.innerHTML = "✅ Message transmitted! I'll connect soon 🚀";
+            feedbackPara.style.color = "#0ff";
+            contactForm.reset();
+            setTimeout(() => feedbackPara.innerHTML = "", 3500);
+        });
+
+        // Small role rotator for the hero section.
+        const roleTarget = document.getElementById('typed-roles');
+        if (roleTarget) {
+            const roles = ['B.Tech CSE Student', 'Data Science Learner', 'Python Programmer', 'Frontend Developer'];
+            let roleIndex = 0;
+            roleTarget.textContent = roles[0];
+            setInterval(() => {
+                roleIndex = (roleIndex + 1) % roles.length;
+                roleTarget.classList.add('role-changing');
+                setTimeout(() => {
+                    roleTarget.textContent = roles[roleIndex];
+                    roleTarget.classList.remove('role-changing');
+                }, 180);
+            }, 2200);
+        }
+
+        // Smooth Scroll
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const target = document.getElementById(targetId);
+                if (target) {
+                    window.scrollTo({ top: target.offsetTop - 70, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
